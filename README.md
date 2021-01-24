@@ -1,4 +1,4 @@
-# Reinforcement Learning In OpenAI Gym (CartPole-v1)**
+# **Reinforcement Learning In OpenAI Gym (CartPole-v1)**
 
 ## Project Information
 
