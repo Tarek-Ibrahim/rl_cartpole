@@ -1,4 +1,4 @@
-# **MEI-56307-2020-2021-1 Robotics Project Work: Reinforcement Learning In OpenAI Gym (Group_16: RL_G16)**
+# Reinforcement Learning In OpenAI Gym (CartPole-v1)**
 
 ## Project Information
 
@@ -23,7 +23,7 @@ Prequisites: Python version 3.8.3. Also, optionally Anaconda for virtual environ
 3. Run `pip install -r requirements.txt`
 4. If you have GPU and wish to use it with this program, you have to install the appropriate PyTorch GPU version yourself from: https://pytorch.org/get-started/locally/
 5. [Install ffmpeg on windows](https://www.wikihow.com/Install-FFmpeg-on-Windows) or Run: `sudo apt-get install xvfb` on Linux.
-5. Clone the repository "[gym-custom]()" locally .
+5. Clone the repository "[gym-custom](https://github.com/Tarek-Ibrahim/gym-custom)" locally .
 6. In a terminal, navigate to the directory which contains the repo.
 7. Run `pip install -e gym-custom`
 8. Check and edit program inputs (if needed) in main.py
