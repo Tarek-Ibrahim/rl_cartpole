@@ -48,7 +48,7 @@ Prequisites: Python version 3.8.3. Also, optionally Anaconda for virtual environ
 (Final project documentation will be later detailed in a report)
 Up-to-date Project Report Documentation: https://www.overleaf.com/read/grjvqfbhmbkz
 
-![AC Controller Implementation on CartPole demo](Project/materials/demo.gif)
+![AC Controller Implementation on CartPole demo](materials/demo.gif)
 
 #### Project Aim: 
 
@@ -61,7 +61,7 @@ The chosen OpenAI Gym environment is "[CartPole-v1](https://gym.openai.com/envs/
 1. **Trainig environments:** Further adjusted such that env0 corresponds to default environment provided by OpenAI gym, env1 corresponds to a case where rewards are linearly proportional to the angle deviation from 0 error, and env2 corresponds to the case where rewards are exponentially proportional.
 2. **Testing environments**: Have the same reward definition as the default case provided by OpenAI gym, but the kinematic parameters of the cartpole is arbitrarily modified such that env0 corresponds to the default environment, evn1 corresponds to a case where parameters are larger, and env2 to a case where parameters are smaller.
 
-##### Method:
+#### Method:
 
 - In design of the program, considerations for conducting fair expirements to get a true unbiased insight on the true performance of own implementation are given a high priority.
 - In choosing the algorithm to solve the problem, considerations included state space type (continous vs discrete), action space type, time horizon (episodic vs continous), presence of a knwon environment model (here the model is assumed unkown to justify use of RL algorithms).
@@ -72,23 +72,23 @@ The chosen OpenAI Gym environment is "[CartPole-v1](https://gym.openai.com/envs/
 - [X] Actor-Critic
 - [X] Model-based Controller (e.g. PID)
 
-##### Implementation:
+#### Implementation:
 
 - Program inputs are supplied in/to main.py, then a sweep of the hyperparameter space takes place, where the models (own and SB) are trained, validated and saved (in models dir.) via train.py with each combination of the hyperparameters and training environments. Training results and plots are saved to output/resutls_and_plots
 - The best models (own and SB) are determined based on highest average reward according to validation
 - Hyperparameter exploration results are plotted
 - The best models are used for testing in test.py on the testing environments, where overall results are also extracted and a random agent performance is added to the comparison. Here the generalization capabilities of the model are tested.
 
-### Extending the Project
+## Extending the Project
 
 Plans for future work is listed in the TODOs of main.py. The project currently is not optimized for extensions through external collaboration.
 
-### Contacts:
+## Contacts:
 
 For suggestions, questions, requests or bug reporting please contact:
 Tarek Ibrahim (tarek.ibrahim@tuni.fi)
 
-### Source & Helpful Links:
+## Source & Helpful Links:
 - https://gym.openai.com/
 - https://stable-baselines.readthedocs.io/en/master/guide/rl.html (Not compatible with Tensorflow 2.0 or above)
 - For stable baselines with Pytorch use stable-baselines3: https://stable-baselines3.readthedocs.io/en/master/guide/rl.html 
