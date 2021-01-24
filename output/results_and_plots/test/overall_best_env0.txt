@@ -1,0 +1,5 @@
+No. of testing trials: 50 
+Average reward for own model is: 150286.96 with std=49060.14 
+Average reward for sb model is: 129372.22 with std=42857.08 
+Average reward for random model is: 25.98 with std=8.48 
+Average reward for PID model is: 38150.18 with std=13756.44 
