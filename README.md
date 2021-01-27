@@ -50,6 +50,8 @@ Up-to-date Project Report Documentation: https://www.overleaf.com/read/grjvqfbhm
 
 ![AC Controller Implementation on CartPole demo](materials/demo.gif)
 
+Link to YouTube video demo: https://youtu.be/cAVwSIcO7I0 
+
 #### Project Aim: 
 
 Goal is to study RL through playing around with OpenAI gym environments as a part of MEI-56307-2020-2021-1 Robotics Project Work course in Tampere University.
