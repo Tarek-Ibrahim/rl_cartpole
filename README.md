@@ -19,7 +19,7 @@ TODO
 Prequisites: Python version 3.8.3. Also, optionally Anaconda for virtual environments and package management.
 
 1. Clone this repository locally.
-2. In a terminal, navigate to the Project directory.
+2. In a terminal, navigate to the repo's directory.
 3. Run `pip install -r requirements.txt`
 4. If you have GPU and wish to use it with this program, you have to install the appropriate PyTorch GPU version yourself from: https://pytorch.org/get-started/locally/
 5. [Install ffmpeg on windows](https://www.wikihow.com/Install-FFmpeg-on-Windows) or Run: `sudo apt-get install xvfb` on Linux.
