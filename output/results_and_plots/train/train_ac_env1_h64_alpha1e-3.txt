@@ -1,0 +1,5 @@
+Best Running Reward is: 19743.05 at episode: 23805
+Greatest number of consecutive trials: 0.0
+Number of validation trials : 100 
+Average validation reward for own model is: 133536.98 with std=5228.29
+Average validation reward for SB model is: 155544.09 with std=2093.15 
