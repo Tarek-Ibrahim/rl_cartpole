@@ -8,7 +8,6 @@
 
 ### Group Members:
 - **Tarek Ibrahim (H293006):** programming (C/C++, Python, Matlab, Java), AI/ML, RL, Control, ROS, mechanics
-- **Federico Dalla Rizza (H293016):** programming (.NET, Java, Python, R, Matlab), AI/ML, RL, ROS
 
 ## Setup & Run Steps:
 
