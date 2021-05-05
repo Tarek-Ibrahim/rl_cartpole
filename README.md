@@ -2,12 +2,7 @@
 
 ## Project Information
 
-### Coaches
-- Prof. Reza Ghabcheloo
-- Nataliya Strokina
-
-### Group Members:
-- **Tarek Ibrahim (H293006):** programming (C/C++, Python, Matlab, Java), AI/ML, RL, Control, ROS, mechanics
+Implementing and expirementing with RL algorithms on a continous control problem (a custom continouous version of OpenAI Gym's Cartpole environment).
 
 ## Setup & Run Steps:
 
@@ -44,8 +39,7 @@ Prequisites: Python version 3.8.3. Also, optionally Anaconda for virtual environ
 
 ## Description:
 
-(Final project documentation will be later detailed in a report)
-Up-to-date Project Report Documentation: https://www.overleaf.com/read/grjvqfbhmbkz
+Up to date project documentation is detailed in a report found in Materials>Project Report.pdf
 
 ![AC Controller Implementation on CartPole demo](materials/demo.gif)
 
@@ -53,7 +47,7 @@ Link to YouTube video demo: https://youtu.be/cAVwSIcO7I0
 
 #### Project Aim: 
 
-Goal is to study RL through playing around with OpenAI gym environments as a part of MEI-56307-2020-2021-1 Robotics Project Work course in Tampere University.
+Goal is to do a hands-on study of RL through playing around with OpenAI gym environments.
 
 #### Environments:
 
@@ -70,7 +64,7 @@ The chosen OpenAI Gym environment is "[CartPole-v1](https://gym.openai.com/envs/
 - Discrete control signals are replaced by continous ones and smoothing is attempted as that could be more realistically implemented in real life
 - Own implementation is compared to the stable-baselines3 implementation (acts as an upper bound on performance) and a random agent (acts as a lower bound).
 - Implemented algorithms:
-- [X] Actor-Critic
+- [X] Advantage Actor-Critic (A2C)
 - [X] Model-based Controller (e.g. PID)
 
 #### Implementation:
