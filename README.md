@@ -2,7 +2,7 @@
 
 ## Project Information
 
-Implementing and expirementing with RL algorithms on a continous control problem (a custom continouous version of OpenAI Gym's Cartpole environment).
+Implementing and experimenting with RL algorithms on a continuous control problem (a custom continuous version of OpenAI Gym's Cartpole environment).
 
 ## Setup & Run Steps:
 
